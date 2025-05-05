@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pupil",
+  "version": "${version}",
+  "name": "Pupil",
+  "description": "Kotlin DSL for polymer-virtual-entity",
+  "authors": [
+    "Narimori"
+  ],
+  "license": "Apache-2.0",
+  "environment": "*",
+  "mixins": [
+    "pupil.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "polymer-virtual-entity": ">=${polymerVersion}"
+  }
+}
